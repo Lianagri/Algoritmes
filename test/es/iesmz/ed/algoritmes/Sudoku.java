@@ -6,6 +6,7 @@ public class Sudoku {
 
     //Constructor que recibe matriz
     public  Sudoku(int[][] sudoku){
+
         this.sudoku=sudoku;
     }
 
