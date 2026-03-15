@@ -1,21 +1,27 @@
 package es.iesmz.ed.algoritmes;
 
+import java.util.ArrayList;
+
 /**
  * Clase que representa la división de factoriales de dos números.
  * Permite calcular el resultado de n! / m! sin calcular los factoriales completos.
  */
 public class DividirFactorial {
 
-    /** Numerador de la división (n!) */
+    /**
+     * Numerador de la división (n!)
+     */
     private final long numerador;
 
-    /** Denominador de la división (m!) */
+    /**
+     * Denominador de la división (m!)
+     */
     private final long denominador;
 
     /**
      * Constructor de la clase.
      *
-     * @param numerador Número del factorial del numerador
+     * @param numerador   Número del factorial del numerador
      * @param denominador Número del factorial del denominador
      */
     public DividirFactorial(long numerador, long denominador) {
